@@ -1,0 +1,68 @@
+[
+{
+    "model": "products.productprice",
+    "pk": 1,
+    "fields": {
+        "name": "Black Friday Prices",
+        "product_id": 1,
+        "is_blackfriday": 1,
+        "price": 80000
+    }
+},
+{
+    "model": "products.productprice",
+    "pk": 2,
+    "fields": {
+        "name": "Black Friday Prices",
+        "product_id": 2,
+        "is_blackfriday": 1,
+        "price": 0
+    }
+},
+{
+    "model": "products.productprice",
+    "pk": 3,
+    "fields": {
+        "name": "2019 Prices",
+        "product_id": 1,
+        "date_start": "2019-01-01",
+        "date_end": null,
+        "price": 120000
+    }
+},
+{
+    "model": "products.productprice",
+    "pk": 4,
+    "fields": {
+        "name": "2019 Prices",
+        "product_id": 2,
+        "date_start": "2019-01-01",
+        "date_end": null,
+        "price": 12500
+    }
+},
+{
+    "model": "products.blackfriday",
+    "pk": 1,
+    "fields": {
+        "month": "11",
+        "day": "23"
+    }
+},
+{
+    "model": "products.blackfriday",
+    "pk": 2,
+    "fields": {
+        "month": "11",
+        "day": "24"
+    }
+},
+{
+    "model": "products.blackfriday",
+    "pk": 3,
+    "fields": {
+        "month": "11",
+        "day": "25"
+    }
+}
+]
